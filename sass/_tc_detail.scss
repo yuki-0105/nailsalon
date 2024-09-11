@@ -1,0 +1,45 @@
+#tc-detail{
+
+    margin-top: 100px;
+
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &::after,
+        &::before {
+            content: "";
+            border-top: 2px solid;
+            width: 100px;
+        }
+
+        &::before{
+            margin-right: 20px;
+        }
+
+        &::after{
+            margin-left: 20px;
+        }
+
+    }
+    
+    h3{
+        padding: 40px 0 20px;
+
+        @media (max-width:415px) {
+            font-size: 2.5rem;
+        }
+
+    }
+
+        ul{
+            
+            li{
+                font-size: 1.7rem;
+                line-height: 3rem;
+            }
+        }
+    
+
+}

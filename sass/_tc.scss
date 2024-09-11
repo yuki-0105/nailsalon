@@ -1,0 +1,45 @@
+#tc {
+
+    border: 3px solid #CCB6B4;
+    text-align: center;
+    padding: 40px 0;
+
+
+    p {
+
+        line-height: 3rem;
+
+        &:first-of-type {
+            font-size: 2.6rem;
+
+            @media (max-width:415px) {
+                font-size: 1.3rem;
+                padding-top: 20px;
+            }
+
+        }
+
+        &:last-of-type {
+            font-size: 2.1rem;
+
+            @media (max-width:415px) {
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+    a {
+        display: inline-block;
+        font-size: 2.8rem;
+        padding-top: 30px;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        @media (max-width:415px) {
+            font-size: 2rem;
+        }
+    }
+}

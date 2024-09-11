@@ -1,0 +1,31 @@
+#contact {
+
+    border: 3px solid #CCB6B4;
+    text-align: center;
+    padding: 40px 0;
+
+
+    p {
+        font-size: 2.3rem;
+        padding-bottom: 20px;
+
+        @media (max-width:415px) {
+            font-size: 1.3rem;
+            padding-top: 20px;
+            line-height: 3rem;
+        }
+
+        @media (max-width:376px) {
+            font-size: 1.2rem;
+        }
+    }
+
+    a {
+        font-size: 2.3rem;
+        padding: 0 10px;
+
+        @media (max-width:415px) {
+            font-size: 1.6rem;
+        }
+    }
+}

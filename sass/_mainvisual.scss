@@ -1,0 +1,47 @@
+.mainvisual {
+    max-width: 100%;
+    position: relative;
+
+    @media (max-width:415px) {
+        margin-top: 80px;
+    }
+    
+    
+    img {
+        width: 100%;
+        height: calc(100vh - 80px);
+        object-fit: cover;
+        opacity: 0.5;
+        
+        @media (max-width:811px) {
+            height: 500px;
+        }
+    
+        @media (max-width:415px) {
+            height: 200px;
+        }
+
+    }
+
+    p {
+        font-size: 3.5rem;
+        color: #595454;
+        position: absolute;
+        top: 250px;
+        left: 380px;
+
+        @media (max-width:811px) {
+            font-size: 2.8rem;
+            top: 240px;
+            left: 130px;
+        }
+
+        @media (max-width:415px) {
+            font-size: 1.6rem;
+            top: 60px;
+            left: 30px;
+        }
+
+
+    }
+}

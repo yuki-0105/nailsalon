@@ -1,0 +1,105 @@
+#access {
+
+    background: #ffefef;
+    border: 3px solid #CCB6B4;
+    padding: 40px 0;
+
+    .access-box {
+
+        max-width: 75%;
+        display: flex;
+        margin: auto;
+        padding-top: 20px;
+
+        @media (max-width:811px) {
+            max-width: 100%;
+        }
+
+        @media (max-width:415px) {
+            display: block;
+        }
+
+        dl {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 2.3rem;
+            width: 60%;
+            margin: 0 auto;
+
+            @media (max-width:811px) {
+                font-size: 1.8em;
+
+            }
+
+            @media (max-width:415px) {
+                font-size: 1.6rem;
+                width: 100%;
+                line-height: 3.5rem;
+            }
+
+            @media (max-width:376px) {
+                font-size: 1.5rems;
+            }
+
+            dt {
+                width: 25%;
+                text-align: right;
+
+                @media (max-width:811px) {
+                    width: 28%;
+                }
+
+                @media (max-width:415px) {
+                    width: 30%;
+                }
+
+            }
+
+            dd {
+                width: 75%;
+                text-align: left;
+
+                @media (max-width:811px) {
+                    width: 72%;
+                }
+
+                @media (max-width:415px) {
+                    width: 70%;
+                }
+            }
+        }
+
+        iframe {
+            width: 50%;
+            height: 300px;
+
+            @media (max-width:811px) {
+                margin-right: 10px;
+            }
+
+            @media (max-width:415px) {
+                width: 90%;
+                margin: 20px 20px 0 20px;
+            }
+        }
+    }
+
+    .access-news {
+        max-width: 75%;
+        margin: auto;
+        padding-top: 20px;
+
+        h3 {
+            font-size: 2.2rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            padding-top: 10px;
+
+            @media (max-width:415px) {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
